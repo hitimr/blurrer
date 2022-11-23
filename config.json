@@ -1,0 +1,44 @@
+{
+    "ALPR": {
+        "assets_folder": "",
+        "charset": "latin",
+        "debug_level": "info",
+        "debug_write_input_image_enabled": false,
+        "debug_internal_data_path": ".",
+        "num_threads": -1,
+        "gpgpu_enabled": true,
+        "max_latency": -1,
+        "klass_vcr_gamma": 1.5,
+        "openvino_enabled": false,
+        "openvino_device": "GPU",
+        "detect_roi": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "detect_minscore": 0.1,
+        "car_noplate_detect_min_score": 0.8,
+        "pyramidal_search_enabled": true,
+        "pyramidal_search_sensitivity": 0.28,
+        "pyramidal_search_minscore": 0.3,
+        "pyramidal_search_min_image_size_inpixels": 800,
+        "recogn_rectify_enabled": true,
+        "recogn_minscore": 0.3,
+        "recogn_score_type": "min"
+    },
+    "BLURRER": {
+        "add_outline": false,
+        "outline": {
+            "width": 4,
+            "color": [
+                255,
+                255,
+                0
+            ]
+        },
+        "blur_radius": 10,
+        "blur_radius_increment": 30,
+        "max_iter": 3
+    }
+}
